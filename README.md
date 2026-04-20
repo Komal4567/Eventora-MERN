@@ -3,11 +3,12 @@
 Eventora is a full-stack MERN application that allows users to seamlessly browse, register, and pay natively without any third party tools. It features an administrative dashboard for event organizers to create and manage free and paid events. All bookings can be managed manually by an admin to handle payments directly.
 
 ## Features
+
 - **User Authentication**: Secure login & registration with JWT and bcrypt.
-- **2FA OTP Verification**: 
+- **2FA OTP Verification**:
   - Mandatory Email OTP to activate your account upon Registration (or delayed login attempts).
   - Mandatory Email OTP to finalize and secure event ticket booking.
-- **Role-Based Access**: 
+- **Role-Based Access**:
   - **Admin**: Create, edit, and delete events. Confirm and reject all incoming booking requests, mark them as 'Paid' or 'Not Paid'. Access is strictly locked to database-flagged users only.
   - **User**: Browse events, submit ticket booking requests via OTP, view personal dashboard pending status, and cancel bookings.
 - **Event Management**: Create free and paid events with detailed descriptions, external image URLs, dates, categories, and seating capacity.
@@ -19,7 +20,16 @@ Eventora is a full-stack MERN application that allows users to seamlessly browse
 - **Email Notifications**: Automated email delivery upon successful booking confirmation using Nodemailer.
 - **Sleek UI/UX**: Built entirely with React, Tailwind CSS, and polished with micro-interactions.
 
----
+## 🔐 Test Credentials
+
+Use these credentials to explore the app without registering:
+
+**Admin Account** (Full Access):
+Email:    komalsh794@gmail.com
+Password: singh@123
+
+Note: This is a demo account for testing purposes only.
+To test as a normal user, feel free to register a new account!
 
 ## 🚀 Setup Instructions
 
