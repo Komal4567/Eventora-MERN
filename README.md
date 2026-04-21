@@ -2,6 +2,19 @@
 
 Eventora is a full-stack MERN application that allows users to seamlessly browse, register, and pay natively without any third party tools. It features an administrative dashboard for event organizers to create and manage free and paid events. All bookings can be managed manually by an admin to handle payments directly.
 
+## 🌐 Live Demo
+https://eventora-opal.vercel.app
+
+##  Test Credentials
+Use these credentials to explore the app without registering:
+
+**Admin Account** (Full Access):
+Email:    komalsh794@gmail.com
+Password: singh@123
+
+Note: This is a demo account for testing purposes only.
+To test as a normal user, feel free to register a new account!
+
 ## Features
 
 - **User Authentication**: Secure login & registration with JWT and bcrypt.
@@ -18,20 +31,7 @@ Eventora is a full-stack MERN application that allows users to seamlessly browse
   - Seat availability accurately updates and securely validates against overbooking logic.
 - **Admin Analytics Dashboard**: Track live data such as Pending Requests, Total Revenue, and Total Confirmed Paid Clients directly from the admin panel.
 - **Email Notifications**: Automated email delivery upon successful booking confirmation using Nodemailer.
-- **Sleek UI/UX**: Built entirely with React, Tailwind CSS, and polished with micro-interactions.
-
-## 🔐 Test Credentials
-
-Use these credentials to explore the app without registering:
-
-**Admin Account** (Full Access):
-Email:    komalsh794@gmail.com
-Password: singh@123
-
-Note: This is a demo account for testing purposes only.
-To test as a normal user, feel free to register a new account!
-
-## 🚀 Setup Instructions
+- **Sleek UI/UX**: Built entirely with React, Tailwind CSS, and polished with micro-interactions
 
 ### Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
